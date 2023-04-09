@@ -1,9 +1,14 @@
 {
   "users": [
-    { "id": 1, "email": "dubey02shiv@gmail.com", "password": "12345" }
+    { "id": 1, "name" : "shivam" , "email": "dubey02shiv@gmail.com", "password": "12345" }
   ],
+
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
-  "post": [{ "id": 1 , "title": "typicode" }] 
+
+  "post": [{ "id": 1 , "title": "typicode" , "discription" : "This is our first blog post hope you like it" , "imageUrl" : "https://ca.slack-edge.com/T04R62JBWR2-U04RBS5V4F7-bd2cdd5c152d-512" , 
+  "comments" : [{"comment" : "Nice post"}] }
+] 
+
 }
